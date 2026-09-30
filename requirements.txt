@@ -1,0 +1,21 @@
+# --- Web framework ---
+fastapi>=0.115.0
+uvicorn[standard]>=0.30.0
+jinja2>=3.1.4
+python-multipart>=0.0.9
+python-dotenv>=1.0.1
+
+# --- Gemini (Google Gen AI SDK) ---
+google-genai>=1.0.0
+huggingface_hub>=1.0.0
+
+# --- Stable Diffusion (Hugging Face Diffusers + PyTorch) ---
+torch>=2.1.0
+diffusers>=0.30.0
+transformers>=4.40.0
+accelerate>=0.30.0
+safetensors>=0.4.3
+
+# --- PDF export and image handling ---
+fpdf2>=2.7.9
+Pillow>=10.1.0
